@@ -87,7 +87,7 @@ else {
 }
 
 
-// N4
+// N3
 function getParticipantsList(list) {
   let text = "Participants list:\n";
   for (let i = 0; i < list.length; i++) {
@@ -144,7 +144,7 @@ if (confirm("Do you want to change a participant name?")) {
 }
 
 
-// N5
+// N4
 function getVisitStats(values) {
   let sum = 0;
   let max = values[0];
@@ -212,6 +212,8 @@ if (confirm("Show numbers of webinars that reached the threshold?")) {
   }
 }
 
+
+// N5
 function showWebinars() {
   if (topics.length === 0) {
     alert("Webinar list is empty!");
