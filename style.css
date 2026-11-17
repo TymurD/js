@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: mediumaquamarine;
+    color: gray;
+}
+.app{
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+.form-row{
+    display: flex;
+    gap: 10px;
+}
+input{
+    flex: 1;
+    min-width: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.task-text{
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+.task.done task-text{
+    text-decoration: line-through;
+    color: limegreen;
+}
+.edit-btn{
+    background-color: #b17d1c;
+}
+.delete-btn{
+    background: #e74c3c;
+}
