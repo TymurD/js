@@ -138,3 +138,14 @@ button:hover{
     display: block;
     max-width: 100%;
 }
+.scroll-hint{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #3b5bdb;
+}
+.github-link{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #3b5bdb;
+}
